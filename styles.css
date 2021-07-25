@@ -58,7 +58,10 @@ body {
   z-index: 1;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
+  /* if i want the glass background i can comment the line above and use the bellow code */
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(80px);
 }
 
 /* modal box for loader */
